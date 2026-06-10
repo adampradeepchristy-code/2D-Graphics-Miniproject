@@ -1,1 +1,17 @@
+Create a terminal-based 2D Graphics Editor in C using the ncurses library. The program should provide an interactive drawing canvas where users can move a cursor using arrow keys and draw using keyboard commands.
 
+Features required:
+- Display a 2D canvas using characters.
+- Freehand drawing mode with cursor movement.
+- Draw points, lines, rectangles, and circles.
+- Clear the canvas.
+- Save the canvas to a text file.
+- Load a previously saved canvas from a text file.
+- Menu-driven interface for selecting tools and operations.
+- Proper input validation and error handling.
+- Modular code with separate functions for drawing, saving, loading, and menu operations.
+- Use ncurses functions such as initscr(), keypad(), noecho(), cbreak(), mvprintw(), refresh(), and getch() for screen handling and keyboard input.
+- Allow users to exit drawing mode and return to the main menu.
+- Keep the code well commented and suitable for a college mini-project demonstration.
+
+The final application should run completely in the terminal and demonstrate basic 2D graphics concepts using ASCII characters.
